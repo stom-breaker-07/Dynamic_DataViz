@@ -9,8 +9,8 @@ const App = () => {
     return (
         <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/Dynamic_DataViz/charts' element={<Charts />} />
-            <Route path='/Dynamic_DataViz/compare' element={<ChartCompare />} />
+            <Route path='/charts' element={<Charts />} />
+            <Route path='/compare' element={<ChartCompare />} />
         </Routes>
     );
 };

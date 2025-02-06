@@ -60,7 +60,7 @@ function Home() {
             }}
             onMouseOver={(e) => (e.target.style.backgroundColor = "#ddd")}
             onMouseOut={(e) => (e.target.style.backgroundColor = "#fff")}
-            onClick={() => (window.location.href = "/charts")}
+            onClick={() => navigate("/charts")}
           >
             Get Started
           </button>
