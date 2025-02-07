@@ -402,7 +402,15 @@ const Charts = () => {
         {Object.keys(chartComponents).map((type) => (
           <button
             key={type}
-            onClick={() => setChartType(type)}
+            onClick={() => {
+              
+              if (type === "scatter" || type === "bubble") {
+                alert(
+                  "Reminder: Scatter and Bubble charts only work with numeric Y values!"
+                );
+              }
+              setChartType(type); // Allow chart selection always
+            }}
             style={{
               marginRight: "10px",
               padding: "10px 20px",
