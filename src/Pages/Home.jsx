@@ -268,7 +268,7 @@ function Home() {
           <h3>Quick Links</h3>
           <p>
             <a
-              href="/"
+              href="https://stom-breaker-07.github.io/Dynamic_DataViz/"
               style={{
                 color: "#ffce56",
                 textDecoration: "none",
@@ -278,7 +278,7 @@ function Home() {
               Home
             </a>
             <a
-              href="/charts"
+              href="https://stom-breaker-07.github.io/Dynamic_DataViz/#/charts"
               style={{
                 color: "#ffce56",
                 textDecoration: "none",
