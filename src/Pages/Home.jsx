@@ -60,7 +60,7 @@ function Home() {
             }}
             onMouseOver={(e) => (e.target.style.backgroundColor = "#ddd")}
             onMouseOut={(e) => (e.target.style.backgroundColor = "#fff")}
-            onClick={() => (() => navigate("/charts"))}
+            onClick={() => (() => navigate("/Dynamic_DataViz/#/charts/charts"))}
           >
             Get Started
           </button>

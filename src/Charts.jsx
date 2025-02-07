@@ -153,7 +153,7 @@ const Charts = () => {
       }}
     >
       <a
-        href="/"
+        href="https://stom-breaker-07.github.io/Dynamic_DataViz/"
         style={{
           position: "fixed",
           top: "10px",
@@ -174,7 +174,7 @@ const Charts = () => {
       </a>
 
       <a
-        href="/compare" // Update the link to the page you want to navigate to
+        href="https://stom-breaker-07.github.io/Dynamic_DataViz/#/compare" // Update the link to the page you want to navigate to
         style={{
           position: "fixed",
           top: "10px", // Change the position to the bottom for the opposite direction
