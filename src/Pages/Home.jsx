@@ -45,8 +45,10 @@ function Home() {
             Experience the power of interactive and dynamic charting with
             multiple graph types and real-time data manipulation.
           </p>
-          <button
+          <a
+            href="https://stom-breaker-07.github.io/Dynamic_DataViz/#/charts"
             style={{
+              display: "inline-block",
               padding: "15px 30px",
               backgroundColor: "#fff",
               color: "#333",
@@ -56,14 +58,15 @@ function Home() {
               fontSize: "18px",
               fontWeight: "bold",
               marginTop: "20px",
+              textDecoration: "none",
               transition: "0.3s",
+              textAlign: "center",
             }}
             onMouseOver={(e) => (e.target.style.backgroundColor = "#ddd")}
             onMouseOut={(e) => (e.target.style.backgroundColor = "#fff")}
-            onClick={() => (() => navigate("/Dynamic_DataViz/#/charts/charts"))}
           >
             Get Started
-          </button>
+          </a>
         </header>
 
         <section
