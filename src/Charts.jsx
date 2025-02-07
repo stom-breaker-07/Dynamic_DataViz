@@ -286,6 +286,7 @@ const Charts = () => {
         <button
           onClick={handleAddData}
           style={{
+            marginTop: "10px",
             padding: "10px 20px",
             backgroundColor: "#ffce56",
             color: "#333",
@@ -300,6 +301,7 @@ const Charts = () => {
         <button
           onClick={handleDeleteData}
           style={{
+            marginTop: "10px",
             padding: "10px 20px",
             backgroundColor: "#ff6384",
             color: "#fff",
