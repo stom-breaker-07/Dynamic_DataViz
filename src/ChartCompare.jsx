@@ -98,14 +98,14 @@ const Charts = () => {
         data: data,
         fill: true,
         backgroundColor: colors,
-        borderColor: colors,
+        borderColor: colors2,
       },
       {
         label: chartLabel2,
         data: data2,
         fill: true,
         backgroundColor: colors2,
-        borderColor: colors2,
+        borderColor: colors,
       }
     ],
   };
